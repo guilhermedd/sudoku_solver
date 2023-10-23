@@ -1,0 +1,34 @@
+Started GET "/" for 127.0.0.1 at 2023-10-23 10:54:36 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /home/diel/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.8/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /home/diel/.rbenv/versions/3.1.2/lib/ruby/gems/3.1.0/gems/railties-7.0.8/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.6ms | Allocations: 636)
+Completed 200 OK in 13ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 7109)
+
+
+Started GET "/welcome/sudoku" for 127.0.0.1 at 2023-10-23 10:55:37 -0300
+Processing by WelcomeController#sudoku as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/sudoku.html.erb within layouts/application
+  Rendered welcome/sudoku.html.erb within layouts/application (Duration: 1.1ms | Allocations: 335)
+  Rendered layout layouts/application.html.erb (Duration: 250.2ms | Allocations: 94294)
+Completed 200 OK in 261ms (Views: 252.7ms | ActiveRecord: 0.0ms | Allocations: 98426)
+
+
+Started GET "/welcome/sudoku" for 127.0.0.1 at 2023-10-23 10:56:09 -0300
+Processing by WelcomeController#sudoku as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/sudoku.html.erb within layouts/application
+  Rendered welcome/sudoku.html.erb within layouts/application (Duration: 0.6ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 3614)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 4577)
+
+
+Started GET "/welcome/sudoku" for 127.0.0.1 at 2023-10-23 10:56:23 -0300
+Processing by WelcomeController#sudoku as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering welcome/sudoku.html.erb within layouts/application
+  Rendered welcome/sudoku.html.erb within layouts/application (Duration: 0.5ms | Allocations: 124)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 3620)
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.0ms | Allocations: 4552)
+
+
